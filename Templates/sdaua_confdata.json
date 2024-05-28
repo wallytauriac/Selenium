@@ -1,0 +1,20 @@
+{
+  "Browser": {
+    "Edge": {"select": "No", "index": 1},
+    "Chrome": {"select": "Yes", "index": 2},
+    "Firefox": {"select": "No", "index": 3},
+  },
+  "General": {
+    "filepath": {"name": "Full Path", "value": "C:/Users/wally/Documents/Python/Demo/Selenium/Templates/"},
+    "logfile": {"name": "Log Output", "value": "sdaua_test.log"},
+    "repofile": {"name": "REPO Input", "value": "sdaua_repodata.json"},
+    "tcfile": {"name": "Testcase Input", "value": "sdaua_testcases.json"}
+  },
+  "Testcase": {
+    "count": {"actual": 1, "maximum": 1}
+  },
+  "Validations": {
+    "test1": {"ItemPage": "item_1_price", "CartPage": "item_1_price"}
+  }
+}
+

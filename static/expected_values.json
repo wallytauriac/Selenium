@@ -1,0 +1,30 @@
+{
+    "fname": {
+        "type": "text",
+        "value": "John",
+        "placeholder": "",
+        "readonly": "None",
+        "disabled": "None",
+        "required": "true"
+    },
+    "lname": {
+        "type": "text",
+        "value": "Doe",
+        "placeholder": "",
+        "readonly": "None",
+        "disabled": "None",
+        "required": "true"
+    },
+    "stats": {
+        "type": "select-one",
+        "selected_option": "Married"
+    },
+    "newsletter": {
+        "type": "checkbox",
+        "checked": "True"
+    },
+    "gender": {
+        "type": "radio",
+        "checked": "True"
+    }
+}

@@ -1,0 +1,10 @@
+
+
+TOM/POM Demonstration
+1.	Overview the scope of the demonstration
+2.	Overview the components to demo
+3.	Communicate more in the POM module approach
+    a.	Be sure to discuss input, output, process
+    b.	Review output displays
+4.	Review the POM/TOM approach & each module
+5.	Run a test and review output

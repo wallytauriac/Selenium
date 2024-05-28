@@ -1,0 +1,182 @@
+{
+  "TCUA001": {
+    "description": "Single Item Pay Test Scenario",
+    "test_steps": [
+      {
+        "step_id": "1",
+        "pagename": "LoginPage",
+        "description": "Navigate to login page",
+        "action": "navigate",
+        "target": "https://saucedemo.com"
+      },
+      {
+        "step_id": "2",
+        "pagename": "LoginPage",
+        "description": "Verify page title",
+        "action": "check_title",
+        "dtitle": "Swag Labs",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "2a",
+        "pagename": "LoginPage",
+        "description": "Enter valid user name",
+        "action": "enter_data",
+        "username": "standard_user",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "2b",
+        "pagename": "LoginPage",
+        "description": "Enter valid password",
+        "action": "enter_data",
+        "password": "secret_sauce",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "3",
+        "pagename": "LoginPage",
+        "description": "Click Login button",
+        "action": "click_button",
+        "button": "login-button",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "4",
+        "pagename": "CatalogPage",
+        "description": "Verify homepage displayed",
+        "action": "check_title",
+        "dtitle": "Products",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "5",
+        "pagename": "CatalogPage",
+        "description": "Click to select catalog item",
+        "action": "click_link",
+        "item_1": "Backpack",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "6",
+        "pagename": "ItemPage",
+        "description": "Get price for selected item",
+        "action": "get_text",
+        "item_1_price": "Item Cost",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "7",
+        "pagename": "ItemPage",
+        "description": "Add item to cart",
+        "action": "click_button",
+        "atc_button": "Add-to-cart",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "8",
+        "pagename": "ItemPage",
+        "description": "Click the cart icon button",
+        "action": "click_button",
+        "cart_icon": "Cart Icon",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "9",
+        "pagename": "CartPage",
+        "description": "Get price item-to-cart",
+        "action": "get_text",
+        "item_1_price": "Item Price",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "10",
+        "pagename": "CartPage",
+        "description": "Click the checkout button",
+        "action": "click_button",
+        "checkout_button": "Check Out",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "11",
+        "pagename": "CheckoutPage",
+        "description": "Enter the first name for checkout",
+        "action": "enter_data",
+        "fname": "Walter",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "12",
+        "pagename": "CheckoutPage",
+        "description": "Enter the Last name for checkout",
+        "action": "enter_data",
+        "lname": "Beasly",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "13",
+        "pagename": "CheckoutPage",
+        "description": "Enter the zip code for checkout delivery",
+        "action": "enter_data",
+        "zip_code": "70122",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "14",
+        "pagename": "CheckoutPage",
+        "description": "Click button to continue checkout",
+        "action": "click_button",
+        "continue_button": "CO Continue",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "15",
+        "pagename": "CheckoutPage",
+        "description": "Click element to obtain payment information",
+        "action": "get_text",
+        "pay_info": "Payment Info",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "16",
+        "pagename": "CheckoutPage",
+        "description": "Click element to obtain payment amount",
+        "action": "get_text",
+        "total_amt": "Total Amount",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "17",
+        "pagename": "CheckoutPage",
+        "description": "Click the checkout finish button",
+        "action": "click_button",
+        "finish_button": "Finish button",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "18",
+        "pagename": "OrderPage",
+        "description": "Click the checkout finish button",
+        "action": "check_title",
+        "dtitle": "Checkout: Complete!",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "22",
+        "pagename": "OrderPage",
+        "description": "Open burger menu",
+        "action": "click_img",
+        "img": "Burger",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "23",
+        "pagename": "MenuPage",
+        "description": "Logout from application",
+        "action": "click_link",
+        "link": "Logout",
+        "expectation": "Valid"
+      }
+    ]
+  }
+}

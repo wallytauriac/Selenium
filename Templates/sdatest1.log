@@ -1,0 +1,190 @@
+2024-05-02 23:01:35,450 - INFO - Test Case ID: TC001
+2024-05-02 23:01:35,450 - INFO - Test Case Description: Valid login test case
+2024-05-02 23:01:35,450 - INFO - Test Step ID: 1
+2024-05-02 23:01:35,450 - INFO - Test Step Description: Navigate to login page
+2024-05-02 23:01:38,329 - INFO - Sauce Lab Demo Site Login page accessed.
+2024-05-02 23:01:38,329 - INFO - Test Step ID: 2
+2024-05-02 23:01:38,329 - INFO - Test Step Description: Verify page title
+2024-05-02 23:01:38,360 - INFO - Page title check passed for Swag Labs
+2024-05-02 23:01:38,360 - INFO - Test Step ID: 2a
+2024-05-02 23:01:38,360 - INFO - Test Step Description: Enter valid user name
+2024-05-02 23:01:39,535 - INFO - Data entry passed for username
+2024-05-02 23:01:39,535 - INFO - Test Step ID: 2b
+2024-05-02 23:01:39,535 - INFO - Test Step Description: Enter valid password
+2024-05-02 23:01:40,655 - INFO - Data entry passed for password
+2024-05-02 23:01:40,655 - INFO - Test Step ID: 3
+2024-05-02 23:01:40,655 - INFO - Test Step Description: Click login button
+2024-05-02 23:01:41,792 - INFO - Button click passed for button
+2024-05-02 23:01:41,792 - INFO - Test Step ID: 4
+2024-05-02 23:01:41,792 - INFO - Test Step Description: Verify homepage displayed
+2024-05-02 23:01:41,819 - INFO - Page title check passed for Products
+2024-05-02 23:01:41,819 - INFO - Test Step ID: 5
+2024-05-02 23:01:41,819 - INFO - Test Step Description: Open burger menu
+2024-05-02 23:01:42,874 - INFO - Image click passed for img
+2024-05-02 23:01:42,874 - INFO - Test Step ID: 6
+2024-05-02 23:01:42,874 - INFO - Test Step Description: Logout from application
+2024-05-02 23:01:43,937 - INFO - Link click passed for link
+2024-05-02 23:01:43,937 - INFO - Test Case Duration: 8.5 seconds
+2024-05-02 23:01:43,937 - INFO - Test Case ID: TC002
+2024-05-02 23:01:43,937 - INFO - Test Case Description: Invalid login test case
+2024-05-02 23:01:43,937 - INFO - Test Step ID: 1
+2024-05-02 23:01:43,937 - INFO - Test Step Description: Navigate to login page
+2024-05-02 23:01:46,052 - INFO - Sauce Lab Demo Site Login page accessed.
+2024-05-02 23:01:46,052 - INFO - Test Step ID: 2
+2024-05-02 23:01:46,052 - INFO - Test Step Description: Verify page title
+2024-05-02 23:01:46,084 - INFO - Page title check passed for Swag Labs
+2024-05-02 23:01:46,084 - INFO - Test Step ID: 2a
+2024-05-02 23:01:46,084 - INFO - Test Step Description: Enter valid user name
+2024-05-02 23:01:47,209 - INFO - Data entry passed for username
+2024-05-02 23:01:47,209 - INFO - Test Step ID: 2b
+2024-05-02 23:01:47,209 - INFO - Test Step Description: Enter invalid password
+2024-05-02 23:01:48,330 - INFO - Data entry passed for password
+2024-05-02 23:01:48,330 - INFO - Test Step ID: 3
+2024-05-02 23:01:48,330 - INFO - Test Step Description: Click login button
+2024-05-02 23:01:49,410 - INFO - Button click passed for button
+2024-05-02 23:01:49,410 - INFO - Test Step ID: 4
+2024-05-02 23:01:49,410 - INFO - Test Step Description: Verify Application status
+2024-05-02 23:01:49,484 - INFO - Error message retrieved: Epic sadface: Username and password do not match any user in this service
+2024-05-02 23:01:49,484 - INFO - Test Case Duration: 5.5 seconds
+2024-05-02 23:01:51,769 - INFO - Test Run Duration: 18.2 seconds
+
+2024-05-03 10:40:33,270 - INFO - Test Case ID: TC001
+2024-05-03 10:40:33,273 - INFO - Test Case Description: Valid login test case
+2024-05-03 10:40:33,273 - INFO - Test Step ID: 1
+2024-05-03 10:40:33,273 - INFO - Test Step Description: Navigate to login page
+2024-05-03 10:40:35,908 - INFO - Sauce Lab Demo Site Login page accessed.
+2024-05-03 10:40:35,908 - INFO - Test Step ID: 2
+2024-05-03 10:40:35,908 - INFO - Test Step Description: Verify page title
+2024-05-03 10:40:35,939 - INFO - Page title check passed for Swag Labs
+2024-05-03 10:40:35,939 - INFO - Test Step ID: 2a
+2024-05-03 10:40:35,939 - INFO - Test Step Description: Enter valid user name
+2024-05-03 10:40:37,083 - INFO - Data entry passed for username
+2024-05-03 10:40:37,083 - INFO - Test Step ID: 2b
+2024-05-03 10:40:37,083 - INFO - Test Step Description: Enter valid password
+2024-05-03 10:40:38,213 - INFO - Data entry passed for password
+2024-05-03 10:40:38,213 - INFO - Test Step ID: 3
+2024-05-03 10:40:38,213 - INFO - Test Step Description: Click login button
+2024-05-03 10:40:39,332 - INFO - Button click passed for button
+2024-05-03 10:40:39,332 - INFO - Test Step ID: 4
+2024-05-03 10:40:39,332 - INFO - Test Step Description: Verify homepage displayed
+2024-05-03 10:40:39,348 - INFO - Page title check passed for Products
+2024-05-03 10:40:39,348 - INFO - Test Step ID: 5
+2024-05-03 10:40:39,348 - INFO - Test Step Description: Open burger menu
+2024-05-03 10:40:40,419 - INFO - Image click passed for img
+2024-05-03 10:40:40,419 - INFO - Test Step ID: 6
+2024-05-03 10:40:40,419 - INFO - Test Step Description: Logout from application
+2024-05-03 10:40:41,487 - INFO - Link click passed for link
+2024-05-03 10:40:41,487 - INFO - Test Case Duration: 8.2 seconds
+2024-05-03 10:40:41,487 - INFO - Test Case ID: TC002
+2024-05-03 10:40:41,488 - INFO - Test Case Description: Invalid login test case
+2024-05-03 10:40:41,488 - INFO - Test Step ID: 1
+2024-05-03 10:40:41,488 - INFO - Test Step Description: Navigate to login page
+2024-05-03 10:40:43,595 - INFO - Sauce Lab Demo Site Login page accessed.
+2024-05-03 10:40:43,595 - INFO - Test Step ID: 2
+2024-05-03 10:40:43,595 - INFO - Test Step Description: Verify page title
+2024-05-03 10:40:43,642 - INFO - Page title check passed for Swag Labs
+2024-05-03 10:40:43,642 - INFO - Test Step ID: 2a
+2024-05-03 10:40:43,642 - INFO - Test Step Description: Enter valid user name
+2024-05-03 10:40:44,758 - INFO - Data entry passed for username
+2024-05-03 10:40:44,758 - INFO - Test Step ID: 2b
+2024-05-03 10:40:44,758 - INFO - Test Step Description: Enter invalid password
+2024-05-03 10:40:45,886 - INFO - Data entry passed for password
+2024-05-03 10:40:45,886 - INFO - Test Step ID: 3
+2024-05-03 10:40:45,886 - INFO - Test Step Description: Click login button
+2024-05-03 10:40:46,979 - INFO - Button click passed for button
+2024-05-03 10:40:46,979 - INFO - Test Step ID: 4
+2024-05-03 10:40:46,979 - INFO - Test Step Description: Verify Application status
+2024-05-03 10:40:47,052 - INFO - Error message retrieved: Epic sadface: Username and password do not match any user in this service
+2024-05-03 10:40:47,052 - INFO - Test Case Duration: 5.6 seconds
+2024-05-03 10:40:47,052 - INFO - Test Case ID: TC003
+2024-05-03 10:40:47,052 - INFO - Test Case Description: Locked out test case
+2024-05-03 10:40:47,052 - INFO - Test Step ID: 1
+2024-05-03 10:40:47,052 - INFO - Test Step Description: Navigate to login page
+2024-05-03 10:40:49,109 - INFO - Sauce Lab Demo Site Login page accessed.
+2024-05-03 10:40:49,109 - INFO - Test Step ID: 2
+2024-05-03 10:40:49,109 - INFO - Test Step Description: Verify page title
+2024-05-03 10:40:49,124 - INFO - Page title check passed for Swag Labs
+2024-05-03 10:40:49,124 - INFO - Test Step ID: 2a
+2024-05-03 10:40:49,124 - INFO - Test Step Description: Enter locked out user name
+2024-05-03 10:40:50,247 - INFO - Data entry passed for username
+2024-05-03 10:40:50,247 - INFO - Test Step ID: 2b
+2024-05-03 10:40:50,247 - INFO - Test Step Description: Enter valid password
+2024-05-03 10:40:51,365 - INFO - Data entry passed for password
+2024-05-03 10:40:51,366 - INFO - Test Step ID: 3
+2024-05-03 10:40:51,366 - INFO - Test Step Description: Click login button
+2024-05-03 10:40:52,430 - INFO - Button click passed for button
+2024-05-03 10:40:52,430 - INFO - Test Step ID: 4
+2024-05-03 10:40:52,430 - INFO - Test Step Description: Verify Application status
+2024-05-03 10:40:52,430 - INFO - Test Case Duration: 5.4 seconds
+2024-05-03 10:40:54,675 - INFO - Test Run Duration: 28.7 seconds
+
+2024-05-03 10:51:12,642 - INFO - Test Case ID: TC001
+2024-05-03 10:51:12,642 - INFO - Test Case Description: Valid login test case
+2024-05-03 10:51:12,642 - INFO - Test Step ID: 1
+2024-05-03 10:51:12,642 - INFO - Test Step Description: Navigate to login page
+2024-05-03 10:51:15,613 - INFO - Sauce Lab Demo Site Login page accessed.
+2024-05-03 10:51:15,613 - INFO - Test Step ID: 2
+2024-05-03 10:51:15,613 - INFO - Test Step Description: Verify page title
+2024-05-03 10:51:15,644 - INFO - Page title check passed for Swag Labs
+2024-05-03 10:51:15,644 - INFO - Test Step ID: 2a
+2024-05-03 10:51:15,644 - INFO - Test Step Description: Enter valid user name
+2024-05-03 10:51:16,793 - INFO - Data entry passed for username
+2024-05-03 10:51:16,793 - INFO - Test Step ID: 2b
+2024-05-03 10:51:16,793 - INFO - Test Step Description: Enter valid password
+2024-05-03 10:51:17,926 - INFO - Data entry passed for password
+2024-05-03 10:51:17,926 - INFO - Test Step ID: 3
+2024-05-03 10:51:17,926 - INFO - Test Step Description: Click login button
+2024-05-03 10:51:19,044 - INFO - Button click passed for button
+2024-05-03 10:51:19,044 - INFO - Test Step ID: 4
+2024-05-03 10:51:19,044 - INFO - Test Step Description: Verify homepage displayed
+2024-05-03 10:51:19,060 - INFO - Page title check passed for Products
+2024-05-03 10:51:19,060 - INFO - Test Step ID: 5
+2024-05-03 10:51:19,060 - INFO - Test Step Description: Open burger menu
+2024-05-03 10:51:20,128 - INFO - Image click passed for img
+2024-05-03 10:51:20,128 - INFO - Test Step ID: 6
+2024-05-03 10:51:20,128 - INFO - Test Step Description: Logout from application
+2024-05-03 10:51:21,195 - INFO - Link click passed for link
+2024-05-03 10:51:21,196 - INFO - Test Case Duration: 8.6 seconds
+2024-05-03 10:51:21,196 - INFO - Test Case ID: TC002
+2024-05-03 10:51:21,196 - INFO - Test Case Description: Invalid login test case
+2024-05-03 10:51:21,196 - INFO - Test Step ID: 1
+2024-05-03 10:51:21,196 - INFO - Test Step Description: Navigate to login page
+2024-05-03 10:51:23,300 - INFO - Sauce Lab Demo Site Login page accessed.
+2024-05-03 10:51:23,300 - INFO - Test Step ID: 2
+2024-05-03 10:51:23,300 - INFO - Test Step Description: Verify page title
+2024-05-03 10:51:23,316 - INFO - Page title check passed for Swag Labs
+2024-05-03 10:51:23,316 - INFO - Test Step ID: 2a
+2024-05-03 10:51:23,316 - INFO - Test Step Description: Enter valid user name
+2024-05-03 10:51:24,442 - INFO - Data entry passed for username
+2024-05-03 10:51:24,442 - INFO - Test Step ID: 2b
+2024-05-03 10:51:24,442 - INFO - Test Step Description: Enter invalid password
+2024-05-03 10:51:25,558 - INFO - Data entry passed for password
+2024-05-03 10:51:25,558 - INFO - Test Step ID: 3
+2024-05-03 10:51:25,558 - INFO - Test Step Description: Click login button
+2024-05-03 10:51:26,623 - INFO - Button click passed for button
+2024-05-03 10:51:26,623 - INFO - Test Step ID: 4
+2024-05-03 10:51:26,623 - INFO - Test Step Description: Verify Application status
+2024-05-03 10:51:26,695 - INFO - Error message retrieved: Epic sadface: Username and password do not match any user in this service
+2024-05-03 10:51:26,695 - INFO - Test Case Duration: 5.5 seconds
+2024-05-03 10:51:26,695 - INFO - Test Case ID: TC003
+2024-05-03 10:51:26,695 - INFO - Test Case Description: Locked out test case
+2024-05-03 10:51:26,695 - INFO - Test Step ID: 1
+2024-05-03 10:51:26,695 - INFO - Test Step Description: Navigate to login page
+2024-05-03 10:51:28,753 - INFO - Sauce Lab Demo Site Login page accessed.
+2024-05-03 10:51:28,753 - INFO - Test Step ID: 2
+2024-05-03 10:51:28,753 - INFO - Test Step Description: Verify page title
+2024-05-03 10:51:28,769 - INFO - Page title check passed for Swag Labs
+2024-05-03 10:51:28,769 - INFO - Test Step ID: 2a
+2024-05-03 10:51:28,769 - INFO - Test Step Description: Enter locked out user name
+2024-05-03 10:51:29,890 - INFO - Data entry passed for username
+2024-05-03 10:51:29,890 - INFO - Test Step ID: 2b
+2024-05-03 10:51:29,890 - INFO - Test Step Description: Enter valid password
+2024-05-03 10:51:31,010 - INFO - Data entry passed for password
+2024-05-03 10:51:31,010 - INFO - Test Step ID: 3
+2024-05-03 10:51:31,010 - INFO - Test Step Description: Click login button
+2024-05-03 10:51:32,076 - INFO - Button click passed for button
+2024-05-03 10:51:32,076 - INFO - Test Step ID: 4
+2024-05-03 10:51:32,076 - INFO - Test Step Description: Verify Application status
+2024-05-03 10:51:32,136 - INFO - Error message retrieved: Epic sadface: Sorry, this user has been locked out.
+2024-05-03 10:51:32,136 - INFO - Test Case Duration: 5.4 seconds
+2024-05-03 10:51:34,389 - INFO - Test Run Duration: 23.6 seconds

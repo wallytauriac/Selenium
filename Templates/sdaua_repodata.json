@@ -1,0 +1,46 @@
+{
+  "LoginPage": {
+    "target": {"strategy": "URL", "locator": "https://saucedemo.com"},
+    "dtitle": {"strategy": "XPATH", "locator": "//div[@class='login_logo']"},
+    "username": {"strategy": "XPATH", "locator": "//input[@id='user-name']"},
+    "password": {"strategy": "XPATH", "locator": "//input[@id='password']"},
+    "button": {"strategy": "XPATH", "locator": "//input[@id='login-button']"},
+    "error": {"strategy": "CSS_Selector", "locator": "h3[data-test='error']"}
+  },
+  "MenuPage": {
+    "link": {"strategy": "XPATH", "locator": "//a[@id='logout_sidebar_link']"}
+  },
+  "CatalogPage": {
+    "dtitle": {"strategy": "XPATH", "locator": "//span[@class='title']"},
+    "img": {"strategy": "XPATH", "locator": "//button[@id='react-burger-menu-btn']"},
+    "Backpack": {"strategy": "XPATH", "locator": "//img[@alt='Sauce Labs Backpack']"},
+    "Bikelight": {"strategy": "XPATH", "locator": "//img[@alt='Sauce Labs Bike Light']"},
+    "item_1": {"strategy": "XPATH", "locator": "//a/div[@class='inventory_item_name ']"}
+  },
+  "ItemPage": {
+    "dtitle": {"strategy": "XPATH", "locator": "//button[@id='back-to-products']"},
+    "item_1_price": {"strategy": "XPATH", "locator": "//div[@class='inventory_details_price']"},
+    "atc_button": {"strategy": "XPATH", "locator": "//button[@id='add-to-cart']"},
+    "cart_icon": {"strategy": "CSS_Selector", "locator": ".shopping_cart_link"},
+    "Backpack": {"strategy": "CSS_Selector", "locator": ".inventory_details_name.large_size"}
+  },
+  "CartPage": {
+    "dtitle": {"strategy": "XPATH", "locator": "//span[@class='title']"},
+    "item_1_price": {"strategy": "XPATH", "locator": "(//div[@class='inventory_item_price'])[1]"},
+    "checkout_button": {"strategy": "XPATH", "locator": "//button[@id='checkout']"}
+  },
+  "CheckoutPage": {
+    "fname": {"strategy": "XPATH", "locator": "//input[@id='first-name']"},
+    "lname": {"strategy": "XPATH", "locator": "//input[@id='last-name']"},
+    "zip_code": {"strategy": "XPATH", "locator": "//input[@id='postal-code']"},
+    "continue_button": {"strategy": "XPATH", "locator": "//input[@id='continue']"},
+    "pay_info": {"strategy": "CSS_Selector", "locator": "div[data-test='payment-info-value']"},
+    "total_amt": {"strategy": "XPATH", "locator": "//div[@class='summary_total_label']"},
+    "finish_button": {"strategy": "XPATH", "locator": "//button[@id='finish']"}
+  },
+  "OrderPage": {
+    "dtitle": {"strategy": "XPATH", "locator": "//span[@class='title']"},
+    "img": {"strategy": "XPATH", "locator": "//button[@id='react-burger-menu-btn']"}
+  }
+}
+

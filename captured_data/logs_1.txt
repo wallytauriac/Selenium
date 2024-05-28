@@ -1,0 +1,5 @@
+WebDriver log type = browser
+[{'level': 'SEVERE', 'message': 'https://www.example.com/favicon.ico - Failed to load resource: the server responded with a status of 404 ()', 'source': 'network', 'timestamp': 1712766950152}]
+WebDriver log type = driver
+[]
+WebDriver log type = client

@@ -1,0 +1,5 @@
+WebDriver log type = browser
+[]
+WebDriver log type = driver
+[]
+WebDriver log type = client

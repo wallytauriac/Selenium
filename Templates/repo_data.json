@@ -1,0 +1,23 @@
+{
+  "LoginPage": {
+    "target": {"strategy": "URL", "locator": "https://saucedemo.com"},
+    "dtitle": {"strategy": "XPATH", "locator": "//div[@class='login_logo']"},
+    "username": {"strategy": "XPATH", "locator": "//input[@id='user-name']"},
+    "password": {"strategy": "XPATH", "locator": "//input[@id='password']"},
+    "button": {"strategy": "XPATH", "locator": "//input[@id='login-button']"},
+    "error": {"strategy": "CSS", "locator": "h3[data-test='error']"}
+  },
+  "MenuPage": {
+    "link": {"strategy": "XPATH", "locator": "//a[@id='logout_sidebar_link']"}
+  },
+  "CatalogPage": {
+    "dtitle": {"strategy": "XPATH", "locator": "//span[@class='title']"},
+    "img": {"strategy": "XPATH", "locator": "//button[@id='react-burger-menu-btn']"},
+    "Backpack": {"strategy": "XPATH", "locator": "//img[@alt='Sauce Labs Backpack']"},
+    "Bikelight": {"strategy": "XPATH", "locator": "//img[@alt='Sauce Labs Bike Light']"}
+  },
+  "ItemPage": {
+    "dtitle": {"strategy": "XPATH", "locator": "//button[@id='back-to-products']"},
+    "Backpack": {"strategy": "CSS", "locator": ".inventory_details_name.large_size"}
+  }
+}

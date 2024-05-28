@@ -1,0 +1,174 @@
+{
+  "TC001": {
+    "description": "Valid login test case",
+    "test_steps": [
+      {
+        "step_id": "1",
+        "pagename": "LoginPage",
+        "description": "Navigate to login page",
+        "action": "navigate",
+        "target": "https://saucedemo.com"
+      },
+      {
+        "step_id": "2",
+        "pagename": "LoginPage",
+        "description": "Verify page title",
+        "action": "check_title",
+        "dtitle": "Swag Labs",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "2a",
+        "pagename": "LoginPage",
+        "description": "Enter valid user name",
+        "action": "enter_data",
+        "username": "standard_user",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "2b",
+        "pagename": "LoginPage",
+        "description": "Enter valid password",
+        "action": "enter_data",
+        "password": "secret_sauce",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "3",
+        "pagename": "LoginPage",
+        "description": "Click login button",
+        "action": "click_login_button",
+        "button": "login-button",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "4",
+        "pagename": "CatalogPage",
+        "description": "Verify homepage displayed",
+        "action": "check_title",
+        "dtitle": "Products",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "5",
+        "pagename": "CatalogPage",
+        "description": "Open burger menu",
+        "action": "click_img",
+        "img": "Burger",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "6",
+        "pagename": "MenuPage",
+        "description": "Logout from application",
+        "action": "click_link",
+        "link": "Logout",
+        "expectation": "Valid"
+      }
+    ]
+  },
+  "TC002": {
+    "description": "Invalid login test case",
+    "test_steps": [
+      {
+        "step_id": "1",
+        "pagename": "LoginPage",
+        "description": "Navigate to login page",
+        "action": "navigate",
+        "target": "https://saucedemo.com"
+      },
+      {
+        "step_id": "2",
+        "pagename": "LoginPage",
+        "description": "Verify page title",
+        "action": "check_title",
+        "dtitle": "Swag Labs",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "2a",
+        "pagename": "LoginPage",
+        "description": "Enter valid user name",
+        "action": "enter_data",
+        "username": "standard_user",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "2b",
+        "pagename": "LoginPage",
+        "description": "Enter invalid password",
+        "action": "enter_data",
+        "password": "invalid_password",
+        "expectation": "Invalid"
+      },
+      {
+        "step_id": "3",
+        "pagename": "LoginPage",
+        "description": "Click login button",
+        "action": "click_login_button",
+        "button": "login-button",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "4",
+        "pagename": "LoginPage",
+        "description": "Verify Application status",
+        "action": "verify_msg",
+        "error": "Username or Password entry error",
+        "expectation": "Invalid"
+      }
+    ]
+  },
+  "TC003": {
+    "description": "Locked out test case",
+    "test_steps": [
+      {
+        "step_id": "1",
+        "pagename": "LoginPage",
+        "description": "Navigate to login page",
+        "action": "navigate",
+        "target": "https://saucedemo.com"
+      },
+      {
+        "step_id": "2",
+        "pagename": "LoginPage",
+        "description": "Verify page title",
+        "action": "check_title",
+        "dtitle": "Swag Labs",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "2a",
+        "pagename": "LoginPage",
+        "description": "Enter locked out user name",
+        "action": "enter_data",
+        "username": "locked_out_user",
+        "expectation": "Invalid"
+      },
+      {
+        "step_id": "2b",
+        "pagename": "LoginPage",
+        "description": "Enter valid password",
+        "action": "enter_data",
+        "password": "secret_sauce",
+        "expectation": "Invalid"
+      },
+      {
+        "step_id": "3",
+        "pagename": "LoginPage",
+        "description": "Click login button",
+        "action": "click_login_button",
+        "button": "login-button",
+        "expectation": "Valid"
+      },
+      {
+        "step_id": "4",
+        "pagename": "LoginPage",
+        "description": "Verify Application status",
+        "action": "verify_msg",
+        "error": "Username or Password entry error",
+        "expectation": "Invalid"
+      }
+    ]
+  }
+}

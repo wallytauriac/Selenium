@@ -1,0 +1,75 @@
+2024-05-11 19:43:06,640 - INFO - Selected Browser for this run: Chrome
+2024-05-11 19:43:06,640 - INFO - Selected Filepath for this run: C:/Users/wally/Documents/Python/Demo/Selenium/Templates/
+2024-05-11 19:43:06,641 - INFO - Selected Logfile for this run: C:/Users/wally/Documents/Python/Demo/Selenium/Templates/sdaua_test.log
+2024-05-11 19:43:06,641 - INFO - Selected REPOfile for this run: C:/Users/wally/Documents/Python/Demo/Selenium/Templates/sdaua_repodata.json
+2024-05-11 19:43:06,641 - INFO - Selected TCfile for this run: C:/Users/wally/Documents/Python/Demo/Selenium/Templates/sdaua_testcases.json
+2024-05-11 19:43:06,709 - INFO - Test Case ID: TCUA001
+2024-05-11 19:43:06,709 - INFO - Test Case Description: Single Item Pay Test Scenario
+2024-05-11 19:43:06,710 - INFO - Test Step ID: 1
+2024-05-11 19:43:06,710 - INFO - Test Step Description: Navigate to login page
+2024-05-11 19:43:10,444 - INFO - Sauce Lab Demo Site Login page accessed.
+2024-05-11 19:43:10,598 - INFO - Test Step ID: 2
+2024-05-11 19:43:10,601 - INFO - Test Step Description: Verify page title
+2024-05-11 19:43:10,689 - INFO - Verify page title: Swag Labs
+2024-05-11 19:43:10,689 - INFO - Test Step ID: 2a
+2024-05-11 19:43:10,689 - INFO - Test Step Description: Enter valid user name
+2024-05-11 19:43:12,143 - INFO - Enter valid user name: username
+2024-05-11 19:43:12,322 - INFO - Test Step ID: 2b
+2024-05-11 19:43:12,323 - INFO - Test Step Description: Enter valid password
+2024-05-11 19:43:13,707 - INFO - Enter valid password: password
+2024-05-11 19:43:13,860 - INFO - Test Step ID: 3
+2024-05-11 19:43:13,861 - INFO - Test Step Description: Click Login button
+2024-05-11 19:43:15,267 - INFO - Click Login button: button
+2024-05-11 19:43:15,267 - INFO - Test Step ID: 4
+2024-05-11 19:43:15,267 - INFO - Test Step Description: Verify homepage displayed
+2024-05-11 19:43:15,334 - INFO - Verify homepage displayed: Products
+2024-05-11 19:43:15,553 - INFO - Test Step ID: 5
+2024-05-11 19:43:15,554 - INFO - Test Step Description: Click to select catalog item
+2024-05-11 19:43:16,936 - INFO - Click to select catalog item: item_1
+2024-05-11 19:43:16,939 - INFO - Test Step ID: 6
+2024-05-11 19:43:16,939 - INFO - Test Step Description: Get price for selected item
+2024-05-11 19:43:17,242 - INFO - Get price for selected item - $29.99
+2024-05-11 19:43:17,513 - INFO - Test Step ID: 7
+2024-05-11 19:43:17,513 - INFO - Test Step Description: Add item to cart
+2024-05-11 19:43:18,972 - INFO - Add item to cart: atc_button
+2024-05-11 19:43:18,973 - INFO - Test Step ID: 8
+2024-05-11 19:43:18,973 - INFO - Test Step Description: Click the cart icon button
+2024-05-11 19:43:20,441 - INFO - Click the cart icon button: cart_icon
+2024-05-11 19:43:20,441 - INFO - Test Step ID: 9
+2024-05-11 19:43:20,442 - INFO - Test Step Description: Get price item-to-cart
+2024-05-11 19:43:20,687 - INFO - Get price item-to-cart - $29.99
+2024-05-11 19:43:20,832 - INFO - Test Step ID: 10
+2024-05-11 19:43:20,832 - INFO - Test Step Description: Click the checkout button
+2024-05-11 19:43:22,040 - INFO - Click the checkout button: checkout_button
+2024-05-11 19:43:22,040 - INFO - Test Step ID: 11
+2024-05-11 19:43:22,040 - INFO - Test Step Description: Enter the first name for checkout
+2024-05-11 19:43:23,315 - INFO - Enter the first name for checkout: Walter
+2024-05-11 19:43:23,631 - INFO - Test Step ID: 12
+2024-05-11 19:43:23,631 - INFO - Test Step Description: Enter the Last name for checkout
+2024-05-11 19:43:24,896 - INFO - Enter the Last name for checkout: Beasly
+2024-05-11 19:43:25,043 - INFO - Test Step ID: 13
+2024-05-11 19:43:25,044 - INFO - Test Step Description: Enter the zip code for checkout delivery
+2024-05-11 19:43:26,310 - INFO - Enter the zip code for checkout delivery: 70122
+2024-05-11 19:43:26,464 - INFO - Test Step ID: 14
+2024-05-11 19:43:26,464 - INFO - Test Step Description: Click button to continue checkout
+2024-05-11 19:43:27,664 - INFO - Click button to continue checkout: continue_button
+2024-05-11 19:43:27,664 - INFO - Test Step ID: 15
+2024-05-11 19:43:27,664 - INFO - Test Step Description: Click element to obtain payment information
+2024-05-11 19:43:27,821 - INFO - Click element to obtain payment information - SauceCard #31337
+2024-05-11 19:43:27,821 - INFO - Test Step ID: 16
+2024-05-11 19:43:27,821 - INFO - Test Step Description: Click element to obtain payment amount
+2024-05-11 19:43:27,982 - INFO - Click element to obtain payment amount - Total: $32.39
+2024-05-11 19:43:27,982 - INFO - Test Step ID: 17
+2024-05-11 19:43:27,982 - INFO - Test Step Description: Click the checkout finish button
+2024-05-11 19:43:29,149 - INFO - Click the checkout finish button: finish_button
+2024-05-11 19:43:29,149 - INFO - Test Step ID: 18
+2024-05-11 19:43:29,149 - INFO - Test Step Description: Click the checkout finish button
+2024-05-11 19:43:29,191 - INFO - Page title check passed for Checkout: Complete!
+2024-05-11 19:43:29,325 - INFO - Test Step ID: 22
+2024-05-11 19:43:29,325 - INFO - Test Step Description: Open burger menu
+2024-05-11 19:43:30,497 - INFO - Open burger menu: img
+2024-05-11 19:43:30,498 - INFO - Test Step ID: 23
+2024-05-11 19:43:30,498 - INFO - Test Step Description: Logout from application
+2024-05-11 19:43:31,818 - INFO - Logout from application: link
+2024-05-11 19:43:31,988 - INFO - Test Case Duration: 25.3 seconds
+2024-05-11 19:43:37,351 - INFO - Test Run Duration: 30.7 seconds

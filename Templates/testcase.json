@@ -1,0 +1,59 @@
+{
+  "TC001": {
+    "description": "Valid login test case",
+    "test_steps": [
+      {
+        "step_id": 1,
+        "description": "Navigate to login page",
+        "action": "navigate_to_login_page",
+        "target": "https://example.com/login"
+      },
+      {
+        "step_id": 2,
+        "description": "Enter valid credentials",
+        "action": "enter_credentials",
+        "username": "valid_username",
+        "password": "valid_password"
+      },
+      {
+        "step_id": 3,
+        "description": "Click login button",
+        "action": "click_login_button"
+      },
+      {
+        "step_id": 4,
+        "description": "Verify homepage displayed",
+        "action": "verify_homepage_displayed"
+      }
+    ]
+  },
+  "TC002": {
+    "description": "Invalid login test case",
+    "test_steps": [
+      {
+        "step_id": 1,
+        "description": "Navigate to login page",
+        "action": "navigate_to_login_page",
+        "target": "https://example.com/login"
+      },
+      {
+        "step_id": 2,
+        "description": "Enter invalid credentials",
+        "action": "enter_credentials",
+        "username": "invalid_username",
+        "password": "invalid_password"
+      },
+      {
+        "step_id": 3,
+        "description": "Click login button",
+        "action": "click_login_button"
+      },
+      {
+        "step_id": 4,
+        "description": "Verify error message displayed",
+        "action": "verify_error_message_displayed",
+        "expected_result": "Invalid username or password"
+      }
+    ]
+  }
+}
