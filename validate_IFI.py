@@ -59,3 +59,4 @@ class InputFieldInspector:
                 assert actual_value == expected_value, f"Attribute '{attribute_name}' of input field '{input_field_name}' has unexpected value: expected '{expected_value}', found '{actual_value}'"
 
         return attributes
+

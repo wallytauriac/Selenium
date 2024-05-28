@@ -39,3 +39,4 @@ cancel_locator = locate_with(By.TAG_NAME, "button").to_left_of({By.ID: "submit"}
 submit_locator = locate_with(By.TAG_NAME, "button").to_right_of({By.ID: "cancel"})
 email2_locator = locate_with(By.TAG_NAME, "input").near({By.ID: "lbl-email"})
 submit2_locator = locate_with(By.TAG_NAME, "button").below({By.ID: "email"}).to_right_of({By.ID: "cancel"})
+

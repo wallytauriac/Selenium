@@ -21,3 +21,4 @@ finally:
     print("Element text: " + element.text)
 
 driver.quit()
+

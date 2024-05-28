@@ -20,3 +20,4 @@ elem = driver.find_element(By.CLASS_NAME, 'logo')  # Find the logo
 elem.click()
 print("Logo found and clicked")
 driver.quit()
+

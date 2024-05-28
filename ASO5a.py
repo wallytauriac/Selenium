@@ -25,3 +25,4 @@ class SeleniumDriver:
 
     def quit(self):
         self.driver.quit()
+
