@@ -18,7 +18,7 @@ import time
  --> Demonstrates Pytest, Pytest HTML reporting, Pytest Logging, Pytest report image inserts
  --> Demonstrates Assertions, Pytest Parametrizing, and error handling
  --> Demonstrates Alert handling
- --> Demonstrate Web Page images
+ --> Demonstrate Web Page images output support
 
 '''
 @pytest.fixture(scope="module")
@@ -41,9 +41,9 @@ def load_test_data():
 def check_for_alert(driver):
     try:
         alert = driver.switch_to_alert()
-        return "True", alert
+        alert.dismiss()
     except:
-        return "False", ""
+        pass
 
 def check_password(password):
     if password == "None":
@@ -67,9 +67,7 @@ def test_login(setup, username, password, expected_result):
 
     time.sleep(2)
     if expected_result == "success":
-        status, alert = check_for_alert(driver)
-        if status == "True":
-            alert.dismiss()
+        check_for_alert(driver)
         element = driver.find_element(By.CSS_SELECTOR, ".title")
         time.sleep(1)
         assert element.is_displayed() == True
